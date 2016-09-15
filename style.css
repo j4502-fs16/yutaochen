@@ -22,8 +22,12 @@ body{
   font-style:italic;
 }
 
-#nav li {
+#nav1 li {
   list-style-type: none;
+  float:left;
+  margin: 0;
+  padding: 0;
+  width: 25%;
 }
 
 #footer{
