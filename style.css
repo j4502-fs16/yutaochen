@@ -23,6 +23,7 @@ body{
 }
 
 #nav1 li {
+  background-color: #98bf21;
   list-style-type: none;
   float:left;
   margin: 0;
@@ -40,6 +41,10 @@ body{
   font-family: Helvetica, Arial, sans-serif;
 }
 
+#nav1 a:hover, a:active{
+  background-color: #9a991a;
+}
+
 #nav2 a:link, a:visited {
   display: block;
   color: #985f32;
@@ -48,6 +53,13 @@ body{
   text-decoration: none;
   padding: 4px;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+#footer {
+color: black;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8em;
+  border-top: 1px solid black;
 }
 
 img {
