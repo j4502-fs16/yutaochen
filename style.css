@@ -38,7 +38,7 @@ background-color: #06a29c;
     color: white;
   }
 
-  .aside-1 a:link, a:visited{
+  .aside-1 a:link, .aside-1 a:visited{
     display: block;
     color: #9aaf89;
     font-weight: bold;
@@ -105,8 +105,9 @@ background-color: #06a29c;
 }
 
 img{
-  width: 100%
+  width: 100%;
   border-style: none;
+  margin: 10px;
 }
 
 @media (min-width: 800px){
@@ -137,12 +138,11 @@ img{
 
   .main{
     display:flex;
-    flex-flow:row;
+    flex-flow:column;
   }
 
   img{
-    width: 50%;
-    height: 150px;
-    margin-right: 10px;
+    width: 95%;
+    margin: 10px;
   }
 }
