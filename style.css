@@ -40,7 +40,17 @@ background-color: #06a29c;
 
   .aside-1 a:link, .aside-1 a:visited{
     display: block;
-    color: #9aaf89;
+    color: #a23f89;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .aside-2 a:link, .aside-2 a:visited{
+    display: block;
+    color: #9aef89;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -72,7 +82,7 @@ background-color: #06a29c;
   }
 
   .header{
-    background: tomato;
+    background: #4A6B8A;
   }
 
   .footer{
@@ -80,16 +90,16 @@ background-color: #06a29c;
   }
 
   .main{
-    background: deepskyblue;
+    background: #669999;
     text-align: left;
   }
 
   .aside-1{
-    background: gold;
+    background: #7AB85C;
   }
 
   .aside-2{
-    background: hotpink;
+    background: #9476AB;
   }
 
   .wrapper{
