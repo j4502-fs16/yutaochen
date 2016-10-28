@@ -169,6 +169,11 @@ img{
     flex-flow:row;
   }
 
+  .main2{
+    display:flex;
+    flex-flow:row;
+  }
+
   img{
     width: 80%;
     height: 90%;
