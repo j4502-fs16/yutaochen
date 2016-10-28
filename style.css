@@ -68,6 +68,16 @@ background-color: #06a29c;
     font-family: 'Open Sans', sans-serif;
   }
 
+  .main2 a:link, .main2 a:visited{
+    display: block;
+    color: #ffdda1;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
   @media (min-width:800px){
     .navigation{
       flex-flow: row;
@@ -119,7 +129,7 @@ background-color: #06a29c;
     text-align: center;
   }
 
-.header, .main, .aside, .footer{
+.header, .main, .aside, .main2, .footer{
   flex:1 100%;
   padding: 10px;
 }
