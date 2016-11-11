@@ -82,8 +82,7 @@ background-color: #06a29c;
     font-size: 1.5em;
   }
 
-  img {
-   width: 100%}
+  img {width: 100%}
 
 @media (min-width:600px){
 
@@ -107,7 +106,6 @@ background-color: #06a29c;
     .menu-trigger {
       display: none;
     }
-
 
     .header{
       flex:1 auto;
@@ -146,7 +144,7 @@ background-color: #06a29c;
       }
 
       .footer{
-        order:4;
+        order: 4;
       }
 }
 
