@@ -97,6 +97,7 @@ background-color: #06a29c;
 
 
 @media (min-width:500px){
+
     .header{
       display: flex;
       text-align: center;
@@ -163,8 +164,6 @@ background-color: #06a29c;
       margin-right: auto;
     }
 
-  }
-
   .aside{
     flex:1 auto;
   }
@@ -208,6 +207,7 @@ background-color: #06a29c;
 
 img{
   width: 100%;
+}
 }
 
 @media (min-width: 800px){
