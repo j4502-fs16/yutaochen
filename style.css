@@ -83,11 +83,7 @@ background-color: #06a29c;
   .main{
     display:none;
   }
-=======
-  .main{
-    display:none;
-  }
-}
+
 
 @media (min-width:500px){
     .header{
