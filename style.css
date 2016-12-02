@@ -1,5 +1,9 @@
 p{
-  color:red;
+  color: #666666;
+  font-family: 'David Libre', serif;
+}
+
+h1{
   color: #666666;
   font-family: 'David Libre', serif;
 }
@@ -8,12 +12,20 @@ body{
   background-color:#b0a8a8;
 }
 
+.main3 {
+  background-color: #96a29c;
+}
+
 .footer {
 color: black;
 background-color: #06a29c;
   font-family: 'Slabo 27px', serif;
   font-size: 0.8em;
   border-top: 1px solid black;
+}
+
+.map-wrapper iframe{
+position:relative;
 }
 
 .header{
@@ -76,13 +88,14 @@ background-color: #06a29c;
     padding: 4px;
     font-family: 'Open Sans', sans-serif;
   }
+
+
   .menu-trigger {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
   }
 
-  img {width: 100%}
 
 @media (min-width:600px){
 
@@ -93,16 +106,9 @@ background-color: #06a29c;
   .navigation {
     display: flex;
   }
-
-
+}
 
 @media (min-width:500px){
-    .header{
-      display: flex;
-      text-align: center;
-      flex-flow: row;
-    }
-
     .menu-trigger {
       display: none;
     }
@@ -131,21 +137,41 @@ background-color: #06a29c;
       flex-flow: row;
     }
 
-      .main{
-        order: 1;
-      }
+    .main{
+      order: 1;
+    }
 
-      .aside-1{
-        order: 2;
-      }
+    .aside-1{
+      order: 2;
+    }
 
-      .aside-2{
-        order: 3;
-      }
+    .aside-2{
+      order: 3;
+    }
 
-      .footer{
-        order: 4;
-      }
+    .main3{
+      order: 4;
+    }
+
+    .footer{
+      order: 5;
+    }
+}
+
+  @media (max-width:800px){
+
+    .map-wrapper iframe{
+      position:relative;
+      width: 80%;
+    }
+}
+
+  @media (max-width:800px){
+
+    .map-wrapper iframe{
+      position:relative;
+      height: 70%;
+    }
 }
 
   @media (min-width:800px){
@@ -161,7 +187,6 @@ background-color: #06a29c;
     .first{
       margin-right: auto;
     }
-
   }
 
   .aside{
@@ -200,7 +225,7 @@ background-color: #06a29c;
     text-align: center;
   }
 
-.header, .main, .aside, .main2, .footer{
+.header, .main, .aside, .main2, .footer, .main3{
   flex:1 100%;
   padding: 10px;
 }
@@ -209,11 +234,8 @@ img{
   width: 100%;
 }
 
+
 @media (min-width: 800px){
-  .navigation{
-    flex-flow: row;
-    justify-content: flex-end;
-  }
 
   .aside{
     flex: 1 auto;
